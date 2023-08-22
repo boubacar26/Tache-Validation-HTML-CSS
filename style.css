@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: #f2f3f7;
+}
+
+#content{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#sidebar{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+footer{
+    background-color: #616161;
+}
