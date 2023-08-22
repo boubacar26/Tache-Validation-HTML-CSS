@@ -13,6 +13,89 @@ main{
     grid-column-end: 2;
 }
 
+
+
+/* content */
+
+.branch{
+    background-color: white;
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+    }
+.More{
+    font-size: 18px;
+    font-weight: lighter;
+   
+   
+    
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    
+}
+.fa-solid{
+ color:    #0c0d0d;
+}
+.bordure{
+    border: 1px solid rgb(141, 137, 137);
+     padding: 10px; 
+     width: 80px;
+     margin-top: 16px; 
+     cursor: pointer;
+     
+    
+}
+.bordure:hover{
+    background-color:#e7e4e4;
+    
+} 
+.like{
+    margin-left: 5px;
+}
+
+.Replier{
+    background-color: black;
+    color: white;
+    width: 90px;
+    padding: 10px;
+    cursor: pointer; 
+}
+.Replier:hover{
+    background-color: #e7e4e4;
+}
+.un{
+    background-color: white;
+    color: #616161;
+    padding: 8px;
+    margin-left: 8px;
+}
+.groupe{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+hr{
+    border: 1px solid rgb(216, 197, 197);
+}
+.avartar{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.Following{
+    display: flex;
+    margin-left: 10px;
+}
+.post{
+    margin-left: 20px;
+}
+.deux{
+margin-top: 30px;
+}
+
 #sidebar{
     grid-column-start: 2;
     grid-column-end: 3;
