@@ -21,3 +21,73 @@ main{
 footer{
     background-color: #616161;
 }
+
+
+/*partie header*/
+.tout{ 
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+.i-recher{
+    margin-left: 83%;
+}
+.icons{
+    display: flex;
+justify-content: space-between;
+gap: 20px;
+
+}
+.mafatou{
+    color: white;
+}
+.titre{
+    text-align: center;
+    padding: 5%;
+}
+.jane{
+    color: white;
+    background-color: black;
+    
+}
+.image{
+   background-image: url("images/jane.jpg");
+   padding: 20%;
+   background-repeat: no-repeat;
+}
+.mafa h3{
+  color: white;
+  font-size: 45px;
+
+}
+h5{
+    color: white;
+    font-size: 55px;
+}
+button{
+    background-color: grey;
+    padding: 15px;
+}
+.mafa{
+   position: relative;
+   right: 30%;
+   padding-top: 20%;
+
+}
+.descend h3{
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
