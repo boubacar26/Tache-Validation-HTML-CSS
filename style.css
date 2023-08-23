@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 
 main{
@@ -20,4 +21,192 @@ main{
 
 footer{
     background-color: #616161;
+}
+
+
+/*--------------------------- Partie Sidebar -----------------------*/
+
+.part1{
+    color: white;
+    background-color: black;
+    width: 90%;
+    margin: 10% 0; 
+}
+
+.part1 img{
+    width: 100%;
+}
+
+.div1{
+    padding: 2%;
+}
+
+
+.part2,
+.part3,
+.part4,
+.part5,
+.part6,
+.part7{
+    width: 90%;
+    background-color: white;
+}
+.title {
+    background-color: black;
+    color: white;
+    padding: 4%;
+    margin-bottom: 0;
+}
+
+
+/* Partie 2 */
+
+.part2 .post{
+    background-color: white;
+    padding: 4%;
+}
+
+.part2 img{
+    width: 15%;
+    height: 10%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.part2 h5,
+.part2 h6{
+    font-weight: normal;
+}
+
+.part2 h5{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: -14px;
+}
+
+.part2 h6{
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.part2 .post1{
+    display: flex;
+}
+
+
+
+/* Partie 3 */
+.part3{
+    height: 15%;
+    margin-top: 10%;
+    width: 90%;
+}
+
+.part3 .ad{
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    background-color: #f2f3f7;
+}
+
+.part3 .div{
+    text-align: center;
+    height: 10%;
+    background-color: #f2f3f7;
+}
+
+.part3 h4{
+    margin-top: 0;
+}
+
+.part3 .div{
+    background-color: #f2f3f7;
+}
+
+.part3 .div p{
+    padding-top: 30%;
+}
+
+/* Partie 4 */
+.part4 ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.part4>ul:nth-child(2)>li:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+
+.part4 ul li{
+    padding: 1% 2%;
+    background-color: #f2f3f7;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+
+/* Partie 5 */
+
+.part5 .images{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.part5 .image1,
+.part5 .image2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.part5 .images img{
+    width: 48%;
+    height: 22%;
+}
+
+
+/* Partie 6 */
+.part6 .icones{
+    padding: 4%;
+}
+
+.part6 .icones i{
+    font-size: 25px;
+    margin-right: 1%;
+}
+
+/* Partie 7 */
+.part7{
+    margin-bottom: 40%;
+}
+
+.part7 .formulaire{
+    padding: 4%;
+}
+
+.part7 form{
+    display: flex;
+    flex-direction: column;
+}
+
+.part7 #email{
+    padding: 3%;
+    margin-bottom: 2%;
+}
+
+.part7 button{
+    padding: 3%;
+    background-color: #ff6363;
+    border: none;
+    color: white;
+}
+
+.part7 button:hover{
+    background-color: gray;
+    border: none;
+    color: black;
 }
