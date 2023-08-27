@@ -166,6 +166,11 @@ footer{
     margin-bottom: -14px;
 }
 
+#sidebar .post1 h5{
+    margin-top: 4px;
+    color: black;
+}
+
 .part2 h6{
     font-size: 12px;
     line-height: 1px;
@@ -313,7 +318,7 @@ footer{
 
 .titre{
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 }
 .jane{
     color: white;
@@ -377,7 +382,15 @@ footer a:hover{
     color: black;
 }
 
+.fa-arrow-up {
+    color: white;
+    margin-right: 8px;
+}
 
+.fa-arrow-up:hover {
+    color: black;
+    margin-right: 8px;
+}
 
 
 
