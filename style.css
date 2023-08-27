@@ -89,9 +89,9 @@ hr{
     display: flex;
     margin-left: 10px;
 }
-.post{
+/* .post{
     margin-left: 20px;
-}
+} */
 .deux{
 margin-top: 30px;
 }
@@ -240,7 +240,7 @@ footer{
 .part5 .images{
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    padding: 0;
 }
 
 .part5 .image1,
